@@ -3,12 +3,115 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My portfolio</title>
+  <title>Sam Rivera — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <main>
-    <h1>Your portfolio starts here</h1>
-    <p>Fill in SPEC.md, then ask the agent to build your site.</p>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <span class="site-brand">Sam Rivera</span>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero-section" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="hero-descriptor">First-year Computer Science student at York University</p>
+        <h1 id="hero-title" class="hero-title">Sam Rivera</h1>
+        <hr class="hairline-divider" aria-hidden="true">
+      </div>
+    </section>
+
+    <section id="about" class="about-section" aria-labelledby="about-title">
+      <div class="section-header">
+        <h2 id="about-title" class="section-title">About</h2>
+      </div>
+      <div class="about-content">
+        <blockquote class="about-quote">
+          <p>“I enjoy making small tools that solve everyday student problems.”</p>
+        </blockquote>
+        <div class="about-body">
+          <p>I enjoy making small tools that solve everyday student problems.</p>
+          <p>I want internship recruiters and classmates to see what I can build.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section" aria-labelledby="projects-title">
+      <div class="section-header">
+        <h2 id="projects-title" class="section-title">Projects</h2>
+      </div>
+      <div class="projects-list">
+        <article class="project-entry">
+          <div class="project-header">
+            <h3 class="project-title">Bus Buddy</h3>
+            <span class="project-meta">Python</span>
+          </div>
+          <p class="project-description">A Python script showing upcoming campus bus departures.</p>
+        </article>
+
+        <article class="project-entry">
+          <div class="project-header">
+            <h3 class="project-title">Study Timer</h3>
+            <span class="project-meta">HTML, CSS, JavaScript</span>
+          </div>
+          <p class="project-description">A simple Pomodoro timer website built with HTML, CSS and JavaScript.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section" aria-labelledby="skills-title">
+      <div class="section-header">
+        <h2 id="skills-title" class="section-title">Skills</h2>
+      </div>
+      <ul class="skills-list" aria-label="Skills list">
+        <li class="skill-tag">Python</li>
+        <li class="skill-tag">HTML</li>
+        <li class="skill-tag">CSS</li>
+        <li class="skill-tag">JavaScript</li>
+        <li class="skill-tag">Git</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <hr class="hairline-divider" aria-hidden="true">
+      <div class="contact-inner">
+        <div class="section-header">
+          <h2 id="contact-title" class="section-title">Contact</h2>
+        </div>
+        <ul class="contact-list" aria-label="Contact links">
+          <li class="contact-item">
+            <span class="contact-label">Email</span>
+            <a href="mailto:sam.rivera@example.com" class="contact-link">sam.rivera@example.com</a>
+          </li>
+          <li class="contact-item">
+            <span class="contact-label">GitHub</span>
+            <a href="https://example.com/sam" class="contact-link" rel="noopener noreferrer">example.com/sam</a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="colophon-text">Sam Rivera &middot; York University</p>
+    </div>
+  </footer>
 </body>
 </html>
