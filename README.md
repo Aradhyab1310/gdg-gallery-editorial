@@ -1,23 +1,42 @@
-# [Your Name]'s Portfolio
+# Editorial Portfolio — GDG Gallery Example
 
-> **Before you share:** A README is the introduction to your project on GitHub. It helps someone understand what you built, where to try it, and how you made it without reading the code. Replace the prompts in brackets with your own details, remove these instructions, and keep everything accurate.
+A fictional student portfolio created for GDG on Campus York University's *Build & Ship Your Portfolio* workshop.
+
+This example demonstrates how the `vibe-editorial` design skill can transform a student's portfolio into a clean, magazine-inspired website.
 
 ## What it is
 
-[In 2 to 3 sentences (or more), explain what your portfolio is for, who it is for, and what visitors will find. Mention real sections or projects from your SPEC.md.]
+This portfolio features Sam Rivera, a fictional first-year Computer Science student at York University.
+
+The website includes Home, About, Projects, Skills, and Contact sections. It showcases two fictional projects:
+
+- **Bus Buddy:** A Python script showing upcoming campus bus departures.
+- **Study Timer:** A Pomodoro timer website built with HTML, CSS, and JavaScript.
+
+All student information and projects are examples for workshop demonstration purposes.
 
 ## Live site
 
-[View my portfolio](https://YOUR-SITE-ID.web.app)
-
-[Replace the example URL with the Hosting URL that `firebase deploy` printed. If your site is not live yet, write "Not deployed yet" instead.]
+[View the Editorial portfolio](https://gdgyork-editorial.web.app)
 
 ## How it was built
 
-- **Planning:** I used `SPEC.md` to decide [the goal, content, and sections of my site].
-- **Website:** I built it using HTML, CSS, and JavaScript in the `public/` folder. [Mention any feature you personally worked on or changed.]
-- **Design:** I chose the `[vibe-name]` skill for [the colors, typography, layout, and motion].
-- **AI tools:** I used [name of coding agent] to help with [specific tasks]. I [describe one choice you made, change you requested, or test you ran].
-- **Version control and hosting:** I used Git and GitHub to [track changes or collaborate]. I deployed the site using Firebase Hosting. [Remove the deployment sentence until your site is live.]
+- **Planning:** Used `SPEC.md` to define the fictional student's background, audience, projects, skills, and website sections.
+- **Website:** Built a responsive portfolio using HTML, CSS, and JavaScript in the `public/` directory.
+- **Design:** Followed the `vibe-editorial` skill to create a magazine-inspired layout with strong typography, generous whitespace, and editorial styling.
+- **AI tools:** Used Google Antigravity to assist with website implementation. Reviewed the generated website and tested its navigation and responsive layouts.
+- **Testing:** Checked the website on desktop and mobile, including navigation and interactive elements.
+- **Version control:** Used Git and GitHub to track and publish the source code.
+- **Hosting:** Deployed the website using Firebase Hosting.
 
-[Before publishing, delete any bracketed prompts and any steps you did not actually do. You can add more technical details later as your project grows.]
+## Technologies
+
+HTML · CSS · JavaScript · Git · GitHub · Firebase Hosting
+
+## Workshop context
+
+Created as one of eight portfolio design examples for the GDG on Campus York University *Build & Ship Your Portfolio* workshop.
+
+The goal is to demonstrate how different design skills can produce distinct portfolios using the same underlying student content.
+
+**Example website developed by Aradhya Banerjee.**
